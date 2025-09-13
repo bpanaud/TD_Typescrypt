@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var car_1 = require("./car");
+var game_1 = require("./game");
+var game = new game_1.Game();
+var car1 = new car_1.Car("Clio", "Renault", "White", 2024);
+var car2 = new car_1.Car("308", "Peugeot", "Grey", 2024);
+var car3 = new car_1.Car("Focus", "Ford", "Red", 2024);
+game.addCar(car1);
+game.addCar(car2);
+game.addCar(car3);
+game.start();
