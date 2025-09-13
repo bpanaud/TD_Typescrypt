@@ -9,3 +9,5 @@ cd TD_Typescript
 npm install -g typescript  
 tsc car.ts event.ts game.ts main.ts  
 node main.js  
+
+Auteur : Bastien PANAUD
