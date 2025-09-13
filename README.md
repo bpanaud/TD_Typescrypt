@@ -5,7 +5,7 @@ Ce projet est une version simplifiée du jeu "Mille Bornes" où 4 voitures font 
 
 Pour lancer le projet :
 
-cd TD_Typescript
-npm install -g typescript
-tsc car.ts event.ts game.ts main.ts
-node main.js
+cd TD_Typescript  
+npm install -g typescript  
+tsc car.ts event.ts game.ts main.ts  
+node main.js  
